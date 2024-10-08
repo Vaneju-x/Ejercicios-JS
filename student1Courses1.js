@@ -1,4 +1,4 @@
-/* /*Exercise #4
+/* Exercise #4
 (sugerencia filter() e includes())
 Cree un programa que recorra las 2 matrices; Si hay cursos comunes, imprímalos en la consola.*/
 console.log("Aqui empieza ejercicio 04");

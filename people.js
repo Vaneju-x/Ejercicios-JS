@@ -26,10 +26,8 @@ for (let i = 0; i<people.length; i++) {
   }
 }
 //7. Escribe el comando que da el indexOf donde se encuentra "Maria".
-let indiceMaria = people.indexOf("Maria");
-
-document.getElementById("arrayIndiceMaria").textContent = ("El índice de Maria es: ") + indiceMaria;
-console.log("El índice de Maria es: " + indiceMaria)
+console.log(people.indexOf("Maria")); //1
 
 //Al final del ejercicio, debería haber 4 personas en la formación. 
-console.log("Al final las personas que quedan son ",people);
+console.log("Al final las personas que quedan son ",people); 
+//['Luis', 'Maria', 'Camila', 'Vanessa']
