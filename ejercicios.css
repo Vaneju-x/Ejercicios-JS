@@ -1,9 +1,36 @@
-*{ background-color: aqua;
-    color: blue;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+main{
+    background: rgb(175,183,238);
+    background: linear-gradient(180deg, rgba(175,183,238,1) 0%, rgba(175,236,238,1) 42%, rgba(255,255,255,1) 74%, rgba(175,183,238,1) 95%);
+}
+
+
 #titulo{
     text-align: center;
-   
-    
+}
+
+header{
+    background: rgb(175,183,238);
+    background: linear-gradient(180deg, rgba(175,183,238,1) 0%, rgba(206,175,238,1) 42%, rgba(255,255,255,1) 74%, rgba(238,175,238,1) 95%);
+    }
+h2,h3,p,li{
+   text-align:left;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 60px;
+}
+li{
+    text-align:left;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 60px 20px;
+}
+ul{
+    text-align:left;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 60px;
 }
